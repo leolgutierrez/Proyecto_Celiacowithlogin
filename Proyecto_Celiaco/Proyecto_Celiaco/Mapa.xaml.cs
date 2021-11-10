@@ -111,5 +111,6 @@ namespace Proyecto_Celiaco
             BindingContext = this;
         }
 
+        
     }
 }

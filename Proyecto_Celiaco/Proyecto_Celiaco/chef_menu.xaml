@@ -4,6 +4,8 @@
              x:Class="Proyecto_Celiaco.chef_menu"
              xmlns:local="clr-namespace:Proyecto_Celiaco"
              >
+    
+    
     <local:Mapa/>
     <local:chef></local:chef>
     <local:ListaFavoritos/>

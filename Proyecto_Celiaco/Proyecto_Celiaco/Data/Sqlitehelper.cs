@@ -13,7 +13,7 @@ namespace Proyecto_Celiaco.card
         public Sqlitehelper(string dbruta)
         {
             db = new SQLiteAsyncConnection(dbruta);
-           // db.CreateTableAsync<Direcciones>().Wait();
+            db.CreateTableAsync<Direcciones>().Wait();
             db.CreateTableAsync<usuario>().Wait();
         }
         //insercion

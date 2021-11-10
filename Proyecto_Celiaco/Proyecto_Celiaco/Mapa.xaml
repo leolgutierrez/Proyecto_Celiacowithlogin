@@ -6,6 +6,7 @@
              IconImageSource="lupa.png">
     <ContentPage.Content>
         <StackLayout>
+
             <Picker x:Name="pkOpciones" Title="Filtrar por..." SelectedIndexChanged="pkOpciones_SelectedIndexChanged"/>
             <!--<Label Text="ubicacion"
                 VerticalOptions="CenterAndExpand" 
