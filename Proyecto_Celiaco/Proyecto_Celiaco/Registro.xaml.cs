@@ -25,7 +25,7 @@ namespace Proyecto_Celiaco
                 nombre_usuario = txtboxusuario.Text,
                 contraseña = txtboxcontraseña.Text,
                 email = txtboxcorreo.Text
-                //asdasd
+                //asdasdaasd
 
             };
 
