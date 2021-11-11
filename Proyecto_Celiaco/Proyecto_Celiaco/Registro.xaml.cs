@@ -50,8 +50,8 @@ namespace Proyecto_Celiaco
                         MailMessage message = new MailMessage();
                         message.From = new MailAddress(txtboxcorreo.Text);
                         message.To.Add(Correo);
-                        message.Subject = "Confirmacion";
-                        message.Body = "Utilize el siguiente Codigo para confirmar su correo : " + "\n" + Session["Codigo"].ToString();
+                        message.Subject = "Bienvenido a nuestra aplicacion";
+                        message.Body = "Esperamos que disfrute de nuestro aplicacion \n \n \n atte \n nombreequipo ";
                         message.IsBodyHtml = false;
 
 
@@ -65,7 +65,7 @@ namespace Proyecto_Celiaco
                         smtp.Port = 587;
                         smtp.EnableSsl = true;
                         smtp.Send(message);
-                        lblBienvenida.Text = "El correo fue enviado";
+                        
 
 
 
