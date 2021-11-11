@@ -45,7 +45,7 @@ namespace Proyecto_Celiaco
                         await App.SQLiteDB.SaveusuarioAsync(user);
                         await DisplayAlert("Registrado", "Se le envio un correo", "uwu");
 
-                        //ahora le envio el correo al pibe 
+                        //ahora le envio el correo al pibeee
                         string Correo = txtboxcorreo.Text;
                         MailMessage message = new MailMessage();
                         message.From = new MailAddress(txtboxcorreo.Text);
