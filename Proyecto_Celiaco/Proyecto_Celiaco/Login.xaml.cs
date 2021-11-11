@@ -32,7 +32,7 @@ namespace Proyecto_Celiaco
             SqliteConnection db =
                new SqliteConnection($"Filename={Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "proyectox.db3")}");
             db.Open();//abro la canilla
-            string comando = "select email from usuario where email='leo@gmail.com'"; //un ejemplo de select
+            string comando = "select email from usuario where email='leo@bhdjhed.com'"; //un ejemplo de select
             SqliteCommand cum = new SqliteCommand(comando, db);
 
 
@@ -41,6 +41,13 @@ namespace Proyecto_Celiaco
             {
                 txtgigante.Text = leedor.GetString(0); //el primer resultado de una tabla imaginaria
             }
+
+            else
+            {
+                txtgigante.Text = "AAAAAA";
+
+            }
+
 
         }
     }
